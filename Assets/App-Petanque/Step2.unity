@@ -124,6 +124,131 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &44616114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 44616119}
+  - component: {fileID: 44616118}
+  - component: {fileID: 44616117}
+  - component: {fileID: 44616116}
+  - component: {fileID: 44616115}
+  m_Layer: 0
+  m_Name: FinalZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &44616115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44616114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 074aae5a1a4ffcf43bbd50102078e6e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  petanqueBall1: {fileID: 1183412005}
+  petanqueBall2: {fileID: 1106630277}
+  petanqueBall3: {fileID: 1504995745}
+  targetColor: {r: 0, g: 1, b: 0.019465446, a: 0.19607843}
+  audioSource: {fileID: 0}
+  nextGreen: {fileID: 706202836}
+  nextRed: {fileID: 1589080163}
+--- !u!65 &44616116
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44616114}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &44616117
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44616114}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5630dc096eda4ef40a62570257f9bb7d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &44616118
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44616114}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &44616119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44616114}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04, y: -1.193, z: 8.6}
+  m_LocalScale: {x: 2.7746499, y: 0.59869, z: 4.46374}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &68043518
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,17 +368,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 647301300, guid: e4819389334c4504290937beeb9cd43b, type: 3}
       propertyPath: m_Text
-      value: '- Throw the balls into the orange zone
-
-
-        - Place the three
-        balls in the zone to complete this step.
-
-'
+      value: "- The level gets more complicated !\n\n- Concentrate: all 3 balls must
+        land in the orange zone to complete this step. \n\n- If you miss, pick up
+        your ball and place yourself back in the circle before trying your shot again."
       objectReference: {fileID: 0}
     - target: {fileID: 647301300, guid: e4819389334c4504290937beeb9cd43b, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 20
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 893474991, guid: e4819389334c4504290937beeb9cd43b, type: 3}
       propertyPath: AttachedKeyboard
@@ -297,7 +418,7 @@ PrefabInstance:
     - target: {fileID: 848579964317799907, guid: e4819389334c4504290937beeb9cd43b,
         type: 3}
       propertyPath: m_Text
-      value: 'Step 1:'
+      value: 'Step 2:'
       objectReference: {fileID: 0}
     - target: {fileID: 848579964317799907, guid: e4819389334c4504290937beeb9cd43b,
         type: 3}
@@ -368,7 +489,7 @@ PrefabInstance:
     - target: {fileID: 848579965096908887, guid: e4819389334c4504290937beeb9cd43b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Step
+      value: Step1
       objectReference: {fileID: 0}
     - target: {fileID: 848579965096908887, guid: e4819389334c4504290937beeb9cd43b,
         type: 3}
@@ -1759,7 +1880,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Step2
+          m_StringArgument: PTQ-Game
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!222 &706202840
@@ -1889,131 +2010,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761863572}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &762067624
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 762067625}
-  - component: {fileID: 762067629}
-  - component: {fileID: 762067628}
-  - component: {fileID: 762067627}
-  - component: {fileID: 762067626}
-  m_Layer: 0
-  m_Name: FinalZone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &762067625
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762067624}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.35, y: 1.317, z: 12.14}
-  m_LocalScale: {x: 4.4576, y: 0.59869, z: 7.630476}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2105172458}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &762067626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762067624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 074aae5a1a4ffcf43bbd50102078e6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  petanqueBall1: {fileID: 1183412005}
-  petanqueBall2: {fileID: 1106630277}
-  petanqueBall3: {fileID: 1504995745}
-  targetColor: {r: 0, g: 1, b: 0.019465446, a: 0.19607843}
-  audioSource: {fileID: 1427150582}
-  nextGreen: {fileID: 706202836}
-  nextRed: {fileID: 1589080163}
---- !u!65 &762067627
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762067624}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &762067628
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762067624}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 5630dc096eda4ef40a62570257f9bb7d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &762067629
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762067624}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &844133662
 GameObject:
@@ -4391,7 +4387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2105172458}
   m_Layer: 0
-  m_Name: Level-1
+  m_Name: Level-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4412,7 +4408,6 @@ Transform:
   m_Children:
   - {fileID: 1362107058}
   - {fileID: 844133663}
-  - {fileID: 762067625}
   - {fileID: 1182966679}
   - {fileID: 1427150581}
   - {fileID: 1183412004}
@@ -4700,5 +4695,6 @@ SceneRoots:
   - {fileID: 2634128103435655830}
   - {fileID: 449316216}
   - {fileID: 2105172458}
+  - {fileID: 44616119}
   - {fileID: 144927449}
   - {fileID: 916769405}
