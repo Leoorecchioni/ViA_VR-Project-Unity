@@ -6,12 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_App/Scenes/Game.unity
-    guid: 6d101d94520f5564184b56c30cf9bb91
-  - enabled: 1
-    path: Assets/BNG Framework/Scenes/XR Demo.unity
-    guid: a1360534006d3f845bc79b46b93cfec5
-  - enabled: 1
     path: Assets/App-Petanque/PTQ-Game.unity
     guid: 036420e1114b30448b646045fd8e31d2
   - enabled: 1
@@ -26,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/App-Petanque/Step2.unity
     guid: e000815f2c7b6de41aeb0f3033387a83
+  - enabled: 1
+    path: Assets/App-Petanque/Step3.unity
+    guid: 367e891c149afa249bcabf6bfc398265
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8434dd8797f7b8e4890ef9b46a21826c,
       type: 2}
