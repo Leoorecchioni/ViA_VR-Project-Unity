@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/App-Petanque/Step1.unity
     guid: 9ab39e0a3978be946981c43e7f93ec03
+  - enabled: 1
+    path: Assets/App-Petanque/Step2.unity
+    guid: e000815f2c7b6de41aeb0f3033387a83
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8434dd8797f7b8e4890ef9b46a21826c,
       type: 2}
