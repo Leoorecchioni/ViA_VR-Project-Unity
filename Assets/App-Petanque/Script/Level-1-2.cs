@@ -27,6 +27,10 @@ public class Level12 : MonoBehaviour
     // Indicateur pour savoir si le son a été joué
     private bool soundPlayed = false;
 
+    // Références pour Next-Green et Next-Red
+    public GameObject nextGreen;
+    public GameObject nextRed;
+
     void Start()
     {
         // Récupère le Renderer du cube pour changer sa couleur
@@ -46,6 +50,12 @@ public class Level12 : MonoBehaviour
         if (audioSource == null)
         {
             Debug.LogError("Aucun AudioSource trouvé ! Assurez-vous de l'attacher au script.");
+        }
+
+        // Vérifie que les objets Next-Green et Next-Red sont assignés
+        if (nextGreen == null || nextRed == null)
+        {
+            Debug.LogError("Assurez-vous d'assigner les objets Next-Green et Next-Red dans l'inspecteur.");
         }
     }
 
@@ -92,11 +102,19 @@ public class Level12 : MonoBehaviour
                 audioSource.Play();
                 soundPlayed = true;
             }
+
+            // Rendre Next-Green visible et Next-Red invisible
+            if (nextGreen != null) nextGreen.SetActive(true);
+            if (nextRed != null) nextRed.SetActive(false);
         }
         else
         {
             ChangeCubeColor(defaultColor);
             soundPlayed = false; // Réinitialise l'indicateur pour rejouer le son si nécessaire
+
+            // Rendre Next-Red visible et Next-Green invisible
+            if (nextGreen != null) nextGreen.SetActive(false);
+            if (nextRed != null) nextRed.SetActive(true);
         }
     }
 
