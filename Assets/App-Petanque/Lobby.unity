@@ -2086,6 +2086,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 848579964192113874, guid: e4819389334c4504290937beeb9cd43b,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.9411765
+      objectReference: {fileID: 0}
     - target: {fileID: 848579964192113886, guid: e4819389334c4504290937beeb9cd43b,
         type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -3658,6 +3663,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 848579964192113874, guid: e4819389334c4504290937beeb9cd43b,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.9411765
+      objectReference: {fileID: 0}
     - target: {fileID: 848579964192113886, guid: e4819389334c4504290937beeb9cd43b,
         type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -4896,6 +4906,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 848579964192113874, guid: e4819389334c4504290937beeb9cd43b,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.9411765
       objectReference: {fileID: 0}
     - target: {fileID: 848579964192113886, guid: e4819389334c4504290937beeb9cd43b,
         type: 3}
