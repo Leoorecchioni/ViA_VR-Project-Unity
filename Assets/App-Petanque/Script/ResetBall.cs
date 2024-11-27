@@ -15,6 +15,9 @@ public class Resetball : MonoBehaviour
     [SerializeField] private GameObject cylinder5;
     [SerializeField] private GameObject cylinder6;
 
+    // Références aux cylindres
+    [SerializeField] private GameObject cochonette;
+
     // Stockage des positions initiales des boules
     private Vector3 initialPosition1;
     private Vector3 initialPosition2;
@@ -27,6 +30,8 @@ public class Resetball : MonoBehaviour
     private Vector3 initialPositionCylinder4;
     private Vector3 initialPositionCylinder5;
     private Vector3 initialPositionCylinder6;
+
+    private Vector3 initialPositioncochonette;
 
     void Start()
     {
@@ -44,6 +49,8 @@ public class Resetball : MonoBehaviour
         if (cylinder4 != null) initialPositionCylinder4 = cylinder4.transform.position;
         if (cylinder5 != null) initialPositionCylinder5 = cylinder5.transform.position;
         if (cylinder6 != null) initialPositionCylinder6 = cylinder6.transform.position;
+
+        if (cochonette != null) initialPositioncochonette = cochonette.transform.position;
     }
 
     // Méthode pour réinitialiser les positions des boules et des cylindres
@@ -63,5 +70,7 @@ public class Resetball : MonoBehaviour
         if (cylinder4 != null) cylinder4.transform.position = initialPositionCylinder4;
         if (cylinder5 != null) cylinder5.transform.position = initialPositionCylinder5;
         if (cylinder6 != null) cylinder6.transform.position = initialPositionCylinder6;
+
+        if (cochonette != null) cochonette.transform.position = initialPositioncochonette;
     }
 }
