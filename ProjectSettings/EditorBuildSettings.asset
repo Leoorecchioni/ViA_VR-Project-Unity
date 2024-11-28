@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/App-Petanque/Bonus-Game.unity
     guid: 3f4d26e68be5ec94495f3430abe6f4ae
+  - enabled: 1
+    path: Assets/App-Petanque/Bonus-Game-Transition.unity
+    guid: 113e89f7663883347a5308051f215b29
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8434dd8797f7b8e4890ef9b46a21826c,
       type: 2}
