@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/App-Petanque/Lobby.unity
     guid: 7ff71e886ab999548b6912ff9e109115
   - enabled: 1
-    path: Assets/App-Petanque/PTQ-Game.unity
-    guid: 036420e1114b30448b646045fd8e31d2
-  - enabled: 1
     path: Assets/App-Petanque/Step.unity
     guid: b3d8b5e23846b4746ba0fe7a597ea0f4
   - enabled: 1
@@ -32,6 +29,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/App-Petanque/Bonus-Game.unity
     guid: 3f4d26e68be5ec94495f3430abe6f4ae
+  - enabled: 1
+    path: Assets/App-Petanque/Lobby-Transition.unity
+    guid: 79fb036b6bee06c4999f6d2098e01cb1
+  - enabled: 1
+    path: Assets/App-Petanque/Final-Lobby-Transition.unity
+    guid: d4e75c3ee9a229c429727ddc0d1dfbd2
   - enabled: 1
     path: Assets/App-Petanque/Bonus-Game-Transition.unity
     guid: 113e89f7663883347a5308051f215b29
